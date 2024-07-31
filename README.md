@@ -1,3 +1,5 @@
+[![es](https://img.shields.io/badge/lang-es-green)](README.es.md)
+
 # CLI Painter
 
 CLI Painter is a console app to draw basic geometric figures. Its purpose is to practice OOP basic concepts in python by developing a simple CLI application.
@@ -12,11 +14,11 @@ Fork this repository to your github account, then clone it. After that, in the `
 
 ### Circle class
 
-- A `Circle` class  with tha attributes `center` of type `Point` and `radius` of type float. Both attributes should be initialized with parameters in the constructor.
+- A `Circle` class  with tha attributes `center` of type `Point` and `radius` of type `float`. Both attributes should be initialized with parameters in the constructor.
 
 - A method `area` that returns the area of the circle as a `float`.
 
-- A method `draw` that create a drawing of the circle. Use the following code to draw the circle in the method's body:
+- A method `draw` that creates a drawing of the circle. Use the following code to draw the circle in the method's body:
 
     ```python
     circle = plt.Circle((self.center.x, self.center.y), self.radius, color="r")
@@ -45,7 +47,7 @@ Fork this repository to your github account, then clone it. After that, in the `
 
 - A method `area` that returns the area of the triangle as a `float`.
 
-- A method `draw` that create a drawing of the triangle. Use the following code to draw the triangle in the method's body:
+- A method `draw` that creates a drawing of the triangle. In the method's body, use the following code to draw the triangle:
 
     ```python
     x = [self.point_1.x, self.point_2.x, self.point_3.x, self.point_1.x]
@@ -75,7 +77,7 @@ Fork this repository to your github account, then clone it. After that, in the `
 
 - A method `area` that returns the area of the rectangle as a `float`.
 
-- A method `draw` that create a drawing of the rectangle. Use the following code to draw the rectangle in the method's body:
+- A method `draw` that creates a drawing of the rectangle. In the method's body, use the following code to draw the rectangle:
 
     ```python
     x = [self.point_1.x, self.point_2.x, self.point_2.x, self.point_1.x, self.point_1.x]
