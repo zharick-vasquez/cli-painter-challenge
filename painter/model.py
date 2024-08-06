@@ -20,6 +20,8 @@ class Circle:
         plt.axis("scaled")
         plt.show()
 
+    def __str__(self):
+        return Circle with center at (x, y) and radius r
 
 
 
